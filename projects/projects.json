@@ -2,7 +2,7 @@
   {
     "name": "FlightPlan",
     "desc": "An interactive flight scheduler targeted for companies who want to visualize and refine schedule for the day. Built using Python, Mongo, Pandas, OpenSky API, Amadeus API, Flask, and Folium.",
-    "image": "notystackandroid",
+    "image": "airline",
     "category": "data analytics",
     "links": {
       "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_today-i-presented-my-first-semester-worth-activity-7140222126699053058-nkDo?utm_source=share&utm_medium=member_desktop",
@@ -13,7 +13,7 @@
   {
     "name": "DraftWatch",
     "desc": "An application that tracks the current draft position for fantasy football. Only works in preseason due to website's format. Built using Python, Requests, Pandas, and Streamlit.",
-    "image": "sppuprepandroid",
+    "image": "football",
     "category": "data analytics",
     "links": {
       "view": "",
@@ -22,23 +22,14 @@
     }
   },
   {
-    "name": "NewsBox Android",
-    "desc": "Native android app built using Java, XML. Retrofit & Glide dependencies. Provides different category news.",
-    "image": "newsboxandroid",
-    "category": "android",
+    "name": "StaticSnow Escape VR",
+    "desc": "VR group project to simulate a static equilibrium physics lab.",
+    "image": "StaticSnowSplashScreen",
+    "category": "games",
     "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/newsbox-android"
-    }
-  },
-  {
-    "name": "Weatherly Android",
-    "desc": "Native android app built using Java, XML and Volley dependencies. Provides weather forecast.",
-    "image": "weatherlyandroid",
-    "category": "android",
-    "links": {
-      "view": "https://www.linkedin.com/posts/jigar-sable_androiddev-androidstudio-java-activity-6955224473822199808-JT0j",
-      "code": "https://github.com/jigar-sable/weatherly-android"
+      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_a-proud-accomplishment-to-present-our-virtual-activity-7138961828411314176-Itma?utm_source=share&utm_medium=member_desktop",
+      "demo": "https://drive.google.com/file/d/1N_ngrOUWafoZHD3WeJ9WODM1vkDfK89l/view?usp=sharing",
+      "code": ""
     }
   }
 ]
