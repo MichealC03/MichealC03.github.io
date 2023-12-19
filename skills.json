@@ -1,58 +1,72 @@
 [
     {
         "name": "Python",
-        "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/python--v1.png",
+        "alt": "skill"
     },
     {
         "name": "Java",
-        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png",
+        "alt": "skill"
     },
     {
         "name": "C++",
-        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png"
+        "icon": "https://img.icons8.com/color/48/000000/c-plus-plus-logo.png",
+        "alt": "skill"
     },
     {
         "name": "MongoDB",
-        "icon": "https://img.icons8.com/color/48/000000/mongodb.png"
+        "icon": "https://img.icons8.com/color/48/000000/mongodb.png",
+        "alt": "skill"
     },
     {
         "name": "Pandas",
-        "icon": "https://img.icons8.com/color/48/pandas.png"
+        "icon": "https://img.icons8.com/color/48/pandas.png",
+        "alt": "skill"
     },
     {
         "name": "API Calls",
-        "icon": "https://img.icons8.com/dotty/80/api.png"
+        "icon": "https://img.icons8.com/dotty/80/api.png",
+        "alt": "skill"
     },
     {
         "name": "MySQL",
-        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png",
+        "alt": "skill"
     },
     {
         "name": "ODEint",
-        "icon": "https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/external-equation-learning-flatart-icons-flat-flatarticons.png"
+        "icon": "https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/external-equation-learning-flatart-icons-flat-flatarticons.png",
+        "alt": "skill"
     },
     {
         "name": "Data Scraping",
-        "icon": "https://img.icons8.com/external-solidglyph-m-oki-orlando/32/000000/external-data-scraping-data-engineering-solid-solidglyph-m-oki-orlando.png"
+        "icon": "https://img.icons8.com/external-solidglyph-m-oki-orlando/64/000000/external-data-scraping-data-engineering-solid-solidglyph-m-oki-orlando.png",
+        "alt": "external-data-scraping-data-engineering-solid-solidglyph-m-oki-orlando"
     },
     {
         "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
+        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png",
+        "alt": "skill"
     },
     {
         "name": "C#",
-        "icon": "https://img.icons8.com/color/48/000000/css3.png"
+        "icon": "https://img.icons8.com/color/48/000000/css3.png",
+        "alt": "skill"
     },
     {
         "name": "HTML",
-        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/html-5--v1.png",
+        "alt": "skill"
     },
     {
         "name": "GitHub",
-        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png"
+        "icon": "https://img.icons8.com/glyph-neue/48/ffffff/github.png",
+        "alt": "skill"
     },
     {
         "name": "Ubuntu",
-        "icon": "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
+        "icon": "https://img.icons8.com/color/48/000000/ubuntu--v1.png",
+        "alt": "skill"
     }
 ]
