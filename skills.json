@@ -17,11 +17,11 @@
     },
     {
         "name": "Pandas",
-        "icon": "https://icons8.com/icon/xSkewUSqtErH/pandas.png"
+        "icon": "https://img.icons8.com/color/48/pandas.png"
     },
     {
         "name": "API Calls",
-        "icon": "https://icons8.com/icon/79635/api.png"
+        "icon": "https://img.icons8.com/office/16/api.png"
     },
     {
         "name": "MySQL",
@@ -29,11 +29,11 @@
     },
     {
         "name": "ODEint",
-        "icon": "https://icons8.com/icon/YcP8oPuabAwX/equation.png"
+        "icon": "https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/external-equation-learning-flatart-icons-flat-flatarticons.png"
     },
     {
         "name": "Data Scraping",
-        "icon": "https://icons8.com/icon/thPUE62qwhsy/data-scraping.png"
+        "icon": "https://img.icons8.com/external-solidglyph-m-oki-orlando/32/external-data-scraping-data-engineering-solid-solidglyph-m-oki-orlando.png"
     },
     {
         "name": "Bootstrap",
@@ -53,6 +53,6 @@
     },
     {
         "name": "Ubuntu",
-        "icon": "https://icons8.com/icon/63208/ubuntu.png"
+        "icon": "https://img.icons8.com/color/48/000000/ubuntu--v1.png"
     }
 ]
