@@ -31,5 +31,27 @@
       "demo": "https://drive.google.com/file/d/1N_ngrOUWafoZHD3WeJ9WODM1vkDfK89l/view?usp=sharing",
       "code": ""
     }
+  },
+  {
+    "name": "Best Ball Advance Rate Calculator",
+    "desc": "A Python application that uses the datasets provided by UnderDog Fantasy to calculate the best ball advance rate for each player. Built using Python, Pandas, and Jupyter Notebook.",
+    "image": "bestball",
+    "category": "data analytics",
+    "links": {
+      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
+      "demo": "",
+      "code": ""
+    }
+  },
+  {
+    "name": "Background Remover",
+    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
+    "image": "Photoroom",
+    "category": "other",
+    "links": {
+      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
+      "demo": "",
+      "code": ""
+    }
   }
 ]
