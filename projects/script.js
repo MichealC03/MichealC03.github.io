@@ -61,6 +61,9 @@ function showProjects(projects) {
     </div>`
     });
     projectsContainer.innerHTML = projectsHTML;
+    // Apply CSS grid to equally divide the grid items
+    projectsContainer.style.display = "grid";
+    projectsContainer.style.gridTemplateColumns = "repeat(auto-fill, minmax(300px, 1fr))";
 
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
