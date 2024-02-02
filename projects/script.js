@@ -42,7 +42,7 @@ function showProjects(projects) {
     projects.forEach(project => {
         projectsHTML += `
         <div class="grid-item ${project.category}">
-        <div class="box tilt" margin: 1rem">
+        <div class="box tilt">
       <img draggable="false" src="/assets/images/projects/${project.image}.png" alt="project" />
       <div class="content">
         <div class="tag">
@@ -61,9 +61,6 @@ function showProjects(projects) {
     </div>`
     });
     projectsContainer.innerHTML = projectsHTML;
-    // Apply CSS grid to equally divide the grid items
-    projectsContainer.style.display = "grid";
-    projectsContainer.style.gridTemplateColumns = "repeat(auto-fill, minmax(300px, 1fr))";
 
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
@@ -82,22 +79,22 @@ function showProjects(projects) {
     // /* SCROLL PROJECTS */
     // srtop.reveal('.work .box', { interval: 200 });
 
-    // isotope filter products
-    var $grid = $('.box-container').isotope({
-        itemSelector: '.grid-item',
-        layoutMode: 'fitRows',
-        masonry: {
-            columnWidth: 200
-        }
-    });
+    // // isotope filter products
+    // var $grid = $('.box-container').isotope({
+    //     itemSelector: '.grid-item',
+    //     layoutMode: 'fitRows',
+    //     masonry: {
+    //         columnWidth: 200
+    //     }
+    // });
 
-    // filter items on button click
-    $('.button-group').on('click', 'button', function () {
-        $('.button-group').find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-    });
+    // // filter items on button click
+    // $('.button-group').on('click', 'button', function () {
+    //     $('.button-group').find('.is-checked').removeClass('is-checked');
+    //     $(this).addClass('is-checked');
+    //     var filterValue = $(this).attr('data-filter');
+    //     $grid.isotope({ filter: filterValue });
+    // });
 }
 
 getProjects().then(data => {
