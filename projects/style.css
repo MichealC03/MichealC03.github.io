@@ -195,51 +195,41 @@ header .navbar ul li a:hover{
   background-color: #fff;
   color: #000;
 }
-.work .box-container{
-  display: flex;
-  flex-wrap: wrap;
-  gap:1.5rem;
+.work .box-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Set three columns per row */
+  gap: 2rem; /* Adjust the gap as needed for spacing */
   margin: 2rem;
 }
-.work .box-container .box{
-  flex:1 1 30rem;
-  border-radius: .5rem;
-  box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
+
+/* Set each box to a fixed size */
+.work .box-container .box {
+  width: 100%; /* Take full width of the grid column */
+  height: 35rem; /* Set a fixed height to ensure uniformity */
+  overflow: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 0 0.7rem 1rem rgba(0, 0, 0, 0.3);
   position: relative;
-  overflow:hidden;
-  height:30rem;
   background: #fff;
-  border: none;
-}
-.work .box-container .box img{
-  height: 100%;
-  width:100%;
-  object-fit: cover;
-}
-.work .box-container .box .content{
-  height: 100%;
-  width:100%;
-  position: absolute;
-  top:85%; left:0;
-  background:rgba(255, 255, 255, 0.9);
   display: flex;
   flex-direction: column;
 }
-.work .box-container .box .content .tag{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  height: 4.5rem;
+
+/* Set the image height to a fixed percentage */
+.work .box-container .box img {
   width: 100%;
-  padding-left: 1rem;
-  background: #ffd900;
+  height: 60%; /* Image covers top 60% */
+  object-fit: cover;
 }
-.work .box-container .box .content .tag h3{
-  font-size: 2rem;
-}
-.work .box-container .box:hover .content{
-  top: 25%;
+
+/* Set content to cover the remaining area and position it consistently */
+.work .box-container .box .content {
+  height: 40%; /* Cover the remaining 40% */
+  position: relative;
+  background: rgba(255, 255, 255, 0.9);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 .work .desc {
   margin: 2rem;
@@ -270,15 +260,16 @@ header .navbar ul li a:hover{
   background: #310ae0f5;
 }
 
+/* Optional: Responsive adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .work .box-container {
+    grid-template-columns: repeat(2, 1fr); /* Two columns on smaller screens */
+  }
+}
+
 @media screen and (max-width: 450px) {
-  .work .button-group{
-    width: 100%;
-  }
-  .work .box-container{
-    margin: 0rem;
-  }
-  .work .box-container .grid-item .box{
-    width: 95% !important;
+  .work .box-container {
+    grid-template-columns: 1fr; /* Single column on mobile */
   }
 }
 

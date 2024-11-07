@@ -66,13 +66,13 @@
     }
   },
   {
-    "name": "Background Remover",
-    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
-    "image": "Photoroom",
-    "category": "other",
+    "name": "NBA Optimal 5 - Artificial Neural Network",
+    "desc": "Artificial Neural Network that predicts the optimal 5 players for a given NBA team. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
+    "image": "suns",
+    "category": "Machine Learning",
     "links": {
-      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
-      "demo": "https://www.youtube.com/watch?v=r1H9xMVlqo8",
+      "view": "",
+      "demo": "https://www.loom.com/share/43816ece7f894738884e5edd47c6d399?sid=7a621870-97dd-499d-94d5-ff19beb94389",
       "code": ""
     }
   },
