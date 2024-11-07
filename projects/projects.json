@@ -53,5 +53,49 @@
       "demo": "https://www.youtube.com/watch?v=r1H9xMVlqo8",
       "code": ""
     }
+  },
+  {
+    "name": "Room Planner Perceptron",
+    "desc": "Basic perceptron that finds the optimal location to place a couch in a room. School project no code available. Using Python, and Numpy.",
+    "image": "chair",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "demo": "https://www.loom.com/share/3122bc4f69a94ceeb957d67d0bde6a68",
+      "code": ""
+    }
+  },
+  {
+    "name": "Background Remover",
+    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
+    "image": "Photoroom",
+    "category": "other",
+    "links": {
+      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
+      "demo": "https://www.youtube.com/watch?v=r1H9xMVlqo8",
+      "code": ""
+    }
+  },
+  {
+    "name": "Background Remover",
+    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
+    "image": "Photoroom",
+    "category": "other",
+    "links": {
+      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
+      "demo": "https://www.youtube.com/watch?v=r1H9xMVlqo8",
+      "code": ""
+    }
+  },
+  {
+    "name": "Background Remover",
+    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
+    "image": "Photoroom",
+    "category": "other",
+    "links": {
+      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
+      "demo": "https://www.youtube.com/watch?v=r1H9xMVlqo8",
+      "code": ""
+    }
   }
 ]
