@@ -116,9 +116,9 @@ function showProjects(projects) {
                 <div class="desc">
                     <p>${project.desc}</p>
                     <div class="btns">
-                    ${project.links.view ? `<a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> Post</a>` : ''}
-                    ${project.links.demo ? `<a href="${project.links.demo}" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a>` : ''}
-                    ${project.links.code ? `<a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>` : ''}
+                        ${project.links.view ? `<a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> Post</a>` : ''}
+                        ${project.links.demo ? `<a href="${project.links.demo}" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a>` : ''}
+                        ${project.links.code ? `<a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>` : ''}
                     </div>
                 </div>
             </div>
@@ -126,13 +126,6 @@ function showProjects(projects) {
     });
 
     projectsContainer.innerHTML = projectHTML;
-
-    $('.button-group').on('click', 'button', function () {
-        $('.button-group').find('.is-checked').removeClass('is-checked');
-        $(this).addClass('is-checked');
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-    });
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {

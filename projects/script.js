@@ -62,6 +62,13 @@ function showProjects(projects) {
     });
     projectsContainer.innerHTML = projectsHTML;
 
+    $('.button-group').on('click', 'button', function () {
+        $('.button-group').find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
+
     // vanilla tilt.js
     // VanillaTilt.init(document.querySelectorAll(".tilt"), {
     //     max: 20,
