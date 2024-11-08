@@ -77,13 +77,13 @@
     }
   },
   {
-    "name": "Background Remover",
-    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
-    "image": "Photoroom",
-    "category": "other",
+    "name": "Flower Identifier - Convolutional Neural Network",
+    "desc": "Convolutional Neural Network that predicts the type of flower given an image to protect cats from lilies. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
+    "image": "lily",
+    "category": "Machine Learning",
     "links": {
-      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
-      "demo": "https://www.youtube.com/watch?v=r1H9xMVlqo8",
+      "view": "",
+      "demo": "https://www.loom.com/share/2c1c5ca6b8d84222852c78ce490a5a80",
       "code": ""
     }
   },
