@@ -55,24 +55,13 @@
     }
   },
   {
-    "name": "Room Planner Perceptron",
-    "desc": "Basic perceptron that finds the optimal location to place a couch in a room. School project no code available. Using Python, and Numpy.",
-    "image": "chair",
+    "name": "Political Speech Analysis - Recurrent Neural Network",
+    "desc": "Recurrent Neural Network that uses an input of 4 words to output a 5th word. Generated a paragraph as well. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
+    "image": "speech",
     "category": "Machine Learning",
     "links": {
       "view": "",
-      "demo": "https://www.loom.com/share/3122bc4f69a94ceeb957d67d0bde6a68",
-      "code": ""
-    }
-  },
-  {
-    "name": "NBA Optimal 5 - Artificial Neural Network",
-    "desc": "Artificial Neural Network that predicts the optimal 5 players for a given NBA team. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
-    "image": "suns",
-    "category": "Machine Learning",
-    "links": {
-      "view": "",
-      "demo": "https://www.loom.com/share/43816ece7f894738884e5edd47c6d399?sid=7a621870-97dd-499d-94d5-ff19beb94389",
+      "demo": "https://youtu.be/ErWxSQ03fQI",
       "code": ""
     }
   },
@@ -88,6 +77,28 @@
     }
   },
   {
+    "name": "NBA Optimal 5 - Artificial Neural Network",
+    "desc": "Artificial Neural Network that predicts the optimal 5 players for a given NBA team. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
+    "image": "suns",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "demo": "https://www.loom.com/share/43816ece7f894738884e5edd47c6d399?sid=7a621870-97dd-499d-94d5-ff19beb94389",
+      "code": ""
+    }
+  },
+  {
+    "name": "Room Planner Perceptron",
+    "desc": "Basic perceptron that finds the optimal location to place a couch in a room. School project no code available. Using Python, and Numpy.",
+    "image": "chair",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "demo": "https://www.loom.com/share/3122bc4f69a94ceeb957d67d0bde6a68",
+      "code": ""
+    }
+  },
+  {
     "name": "IMDB Sentiment Analysis - Natural Language Processing",
     "desc": "Natural Language Processing that predicts the sentiment of a movie review. Built using Python, Pandas, nltk, and tf-idf. School Project no code available.",
     "image": "imdb",
@@ -95,17 +106,6 @@
     "links": {
       "view": "",
       "demo": "https://www.loom.com/share/0fd5b6b5d52a49119ceb1a408239eafc?sid=1ca91174-a171-40d3-82cd-a516eeb58bf2",
-      "code": ""
-    }
-  },
-  {
-    "name": "Political Speech Analysis - Recurrent Neural Network",
-    "desc": "Recurrent Neural Network that uses an input of 4 words to output a 5th word. Generated a paragraph as well. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
-    "image": "speech",
-    "category": "Machine Learning",
-    "links": {
-      "view": "",
-      "demo": "https://youtu.be/ErWxSQ03fQI",
       "code": ""
     }
   }
