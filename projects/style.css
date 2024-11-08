@@ -156,15 +156,42 @@ header .navbar ul li a:hover{
 /* hamburger icon ends */
 
 /* work section starts */
-/* work section starts */
 .work {
   background: linear-gradient(to bottom, #010136, #00003a);
   margin-top: 5rem;
 }
 
+.work .button-group{
+  display: flex;
+  flex-wrap: wrap;
+  gap:1rem;
+  margin: 2rem auto;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.work .button-group .btn{
+  outline: none;
+  padding: 1rem 2rem;
+  background: transparent;
+  color: #fff;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: 500;
+}
+.work .button-group .btn:hover{
+  background-color: #fff;
+  color: #000;
+}
+.work .button-group .btn.is-checked{
+  background-color: #fff;
+  color: #000;
+}
+
 .work .box-container {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(3, minmax(400px, 1fr));
   gap: 1.5rem;
   padding: 2rem;
   max-width: 1200px;
@@ -238,14 +265,13 @@ header .navbar ul li a:hover{
   font-size: 1.5rem;
 }
 
-.work .desc .btns {
+.work .desc .btns{
   display: flex;
   justify-content: space-between;
   width: 100%;
   margin-top: 2rem;
 }
-
-.work .desc .btns .btn {
+.work .desc .btns .btn{
   line-height: 0;
   display: inline;
   padding: 1.5rem 2.5rem;
@@ -255,13 +281,7 @@ header .navbar ul li a:hover{
   background: rgb(12, 12, 12);
   margin-right: 2rem;
 }
-
-.work .desc .btns .btn i {
-  margin-left: 0.5rem;
-  margin-right: 0.5rem;
-}
-
-.work .desc .btns .btn:hover {
+.work .desc .btns .btn:hover{
   background: #310ae0f5;
 }
 
