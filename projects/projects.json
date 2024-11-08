@@ -1,7 +1,7 @@
 [
   {
-    "name": "FlightPlan",
-    "desc": "An interactive flight scheduler targeted for companies who want to visualize and refine schedule for the day. Built using Python, Mongo, Pandas, OpenSky API, Amadeus API, Flask, and Folium.",
+    "name": "FlightPlan (Golden Bowtie Award Winner)",
+    "desc": "Personal Capstone project. An interactive flight scheduler targeted for companies who want to visualize and refine schedule for the day. Built using Python, Mongo, Pandas, OpenSky API, Amadeus API, Flask, and Folium.",
     "image": "airline",
     "category": "data analytics",
     "links": {
@@ -12,7 +12,7 @@
   },
   {
     "name": "DraftWatch",
-    "desc": "An application that tracks the current draft position for fantasy football. Only works in preseason due to website's format. Built using Python, Requests, Pandas, and Streamlit.",
+    "desc": "Personal project. An application that tracks the current draft position for fantasy football. Only works in preseason due to website's format. Built using Python, Requests, Pandas, and Streamlit.",
     "image": "football",
     "category": "data analytics",
     "links": {
@@ -23,7 +23,7 @@
   },
   {
     "name": "StaticSnow Escape VR",
-    "desc": "VR group project to simulate a static equilibrium physics lab.",
+    "desc": "VR group project to simulate a static equilibrium physics lab. Done in Unity and featured in a GCU news article after presenting at Showcase. School project no code available.",
     "image": "cabin",
     "category": "games",
     "links": {
@@ -34,7 +34,7 @@
   },
   {
     "name": "Best Ball Advance Rate Calculator",
-    "desc": "A Python application that uses the datasets provided by UnderDog Fantasy to calculate the best ball advance rate for each player. Built using Python, Pandas, and Jupyter Notebook.",
+    "desc": "A Python application that uses the datasets provided by UnderDog Fantasy to calculate the best ball advance rate for each player. Built using Python, Pandas, and Jupyter Notebook. Work project no code available.",
     "image": "bestball",
     "category": "data analytics",
     "links": {
@@ -45,7 +45,7 @@
   },
   {
     "name": "Background Remover",
-    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
+    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API. Work project no code available.",
     "image": "Photoroom",
     "category": "other",
     "links": {
@@ -89,7 +89,7 @@
   },
   {
     "name": "Room Planner Perceptron",
-    "desc": "Basic perceptron that finds the optimal location to place a couch in a room. School project no code available. Using Python, and Numpy.",
+    "desc": "Basic perceptron that finds the optimal location to place a couch in a room. School project no code available. Using Python, and Numpy. School Project no code available.",
     "image": "chair",
     "category": "Machine Learning",
     "links": {
