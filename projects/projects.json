@@ -90,11 +90,11 @@
   {
     "name": "IMDB Sentiment Analysis - Natural Language Processing",
     "desc": "Natural Language Processing that predicts the sentiment of a movie review. Built using Python, Pandas, nltk, and tf-idf. School Project no code available.",
-    "image": "Photoroom",
-    "category": "other",
+    "image": "imdb",
+    "category": "Machine Learning",
     "links": {
-      "view": "https://www.linkedin.com/posts/micheal-callahan-668b3224a_bit-of-an-update-post-to-showcase-the-projects-activity-7158596265713287170-1HgA?utm_source=share&utm_medium=member_desktop",
-      "demo": "https://www.youtube.com/watch?v=r1H9xMVlqo8",
+      "view": "",
+      "demo": "https://www.loom.com/share/0fd5b6b5d52a49119ceb1a408239eafc?sid=1ca91174-a171-40d3-82cd-a516eeb58bf2",
       "code": ""
     }
   }
