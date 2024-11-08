@@ -38,20 +38,20 @@ $(document).ready(function () {
     });
 
     // <!-- emailjs to mail contact form data -->
-    $("#contact-form").submit(function (event) {
-        emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
+    // $("#contact-form").submit(function (event) {
+    //     emailjs.init("user_TTDmetQLYgWCLzHTDgqxm");
 
-        emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
-            .then(function (response) {
-                console.log('SUCCESS!', response.status, response.text);
-                document.getElementById("contact-form").reset();
-                alert("Form Submitted Successfully");
-            }, function (error) {
-                console.log('FAILED...', error);
-                alert("Form Submission Failed! Try Again");
-            });
-        event.preventDefault();
-    });
+    //     emailjs.sendForm('contact_service', 'template_contact', '#contact-form')
+    //         .then(function (response) {
+    //             console.log('SUCCESS!', response.status, response.text);
+    //             document.getElementById("contact-form").reset();
+    //             alert("Form Submitted Successfully");
+    //         }, function (error) {
+    //             console.log('FAILED...', error);
+    //             alert("Form Submission Failed! Try Again");
+    //         });
+    //     event.preventDefault();
+    // });
     // <!-- emailjs to mail contact form data -->
 
 });
@@ -126,6 +126,13 @@ function showProjects(projects) {
     });
 
     projectsContainer.innerHTML = projectHTML;
+
+    $('.button-group').on('click', 'button', function () {
+        $('.button-group').find('.is-checked').removeClass('is-checked');
+        $(this).addClass('is-checked');
+        var filterValue = $(this).attr('data-filter');
+        $grid.isotope({ filter: filterValue });
+    });
 
     // <!-- tilt js effect starts -->
     VanillaTilt.init(document.querySelectorAll(".tilt"), {
