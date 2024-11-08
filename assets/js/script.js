@@ -116,7 +116,7 @@ function showProjects(projects) {
                 <div class="desc">
                     <p>${project.desc}</p>
                     <div class="btns">
-                    ${project.links.view ? `<a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> View</a>` : ''}
+                    ${project.links.view ? `<a href="${project.links.view}" class="btn" target="_blank"><i class="fas fa-eye"></i> Post</a>` : ''}
                     ${project.links.demo ? `<a href="${project.links.demo}" class="btn" target="_blank"><i class="fas fa-video"></i> Demo</a>` : ''}
                     ${project.links.code ? `<a href="${project.links.code}" class="btn" target="_blank">Code <i class="fas fa-code"></i></a>` : ''}
                     </div>
