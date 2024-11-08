@@ -88,8 +88,8 @@
     }
   },
   {
-    "name": "Background Remover",
-    "desc": "Python application that uses the PhotoRoom API to remove the background of an image. Built using Python, and PhotoRoom API.",
+    "name": "IMDB Sentiment Analysis - Natural Language Processing",
+    "desc": "Natural Language Processing that predicts the sentiment of a movie review. Built using Python, Pandas, nltk, and tf-idf. School Project no code available.",
     "image": "Photoroom",
     "category": "other",
     "links": {
