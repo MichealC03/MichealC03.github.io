@@ -196,6 +196,7 @@ header .navbar ul li a:hover{
   padding: 2rem;
   max-width: 1200px;
   margin: 0 auto;
+  margin-left: 2rem; /* Adjust this value as needed */
 }
 
 /* For when there are only two items */
