@@ -191,7 +191,7 @@ header .navbar ul li a:hover{
 
 .work .box-container {
   display: grid;
-  grid-template-columns: repeat(3, minmax(400px, 1fr));
+  grid-template-columns: repeat(3, minmax(600px, 1fr));
   gap: 1.5rem;
   padding: 2rem;
   max-width: 1200px;
@@ -213,7 +213,7 @@ header .navbar ul li a:hover{
   box-shadow: 0 .7rem 1rem rgba(0,0,0,.3);
   position: relative;
   overflow: hidden;
-  height: 40rem;
+  height: 35rem;
   background: #fff;
   border: none;
 }
