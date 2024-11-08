@@ -97,5 +97,16 @@
       "demo": "https://www.loom.com/share/0fd5b6b5d52a49119ceb1a408239eafc?sid=1ca91174-a171-40d3-82cd-a516eeb58bf2",
       "code": ""
     }
+  },
+  {
+    "name": "Political Speech Analysis - Recurrent Neural Network",
+    "desc": "Recurrent Neural Network that uses an input of 4 words to output a 5th word. Generated a paragraph as well. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
+    "image": "imdb",
+    "category": "Machine Learning",
+    "links": {
+      "view": "",
+      "demo": "https://youtu.be/ErWxSQ03fQI",
+      "code": ""
+    }
   }
 ]
