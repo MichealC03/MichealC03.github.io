@@ -112,7 +112,7 @@
   {
     "name": "ProGAN of Dog Faces",
     "desc": "Used NVIDIA's 2017 ProGAN technique to try and apply it to dog faces. Turned more into a research project and proof of concept. School Project no code available.",
-    "image": "dogs",
+    "image": "AIdog",
     "category": "Machine Learning",
     "links": {
       "view": "",
