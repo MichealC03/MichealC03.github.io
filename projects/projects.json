@@ -55,6 +55,17 @@
     }
   },
   {
+    "name": "Deepfake Detection - Research Paper",
+    "desc": "A research paper done for final project. I was responsible for the data preprocessing of videos and developing parts of research paper. School Project no code available.",
+    "image": "deepfake",
+    "category": "Machine Learning",
+    "links": {
+      "view": "https://drive.google.com/file/d/1yzE7CkavogKEPsJbol4Kk3xpqGs1jKu8/view?usp=sharing",
+      "demo": "https://youtu.be/qu19OOp75bo",
+      "code": ""
+    }
+  },
+  {
     "name": "Political Speech Analysis - Recurrent Neural Network",
     "desc": "Recurrent Neural Network that uses an input of 4 words to output a 5th word. Generated a paragraph as well. Built using Python, Pandas, Keras, TensorFlow, and Sklearn. School Project no code available.",
     "image": "speech",
