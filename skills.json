@@ -4,6 +4,14 @@
         "icon": "https://img.icons8.com/color/48/000000/python--v1.png"
     },
     {
+        "name": "Snowflake",
+        "icon": "https://img.icons8.com/emoji/48/snowflake-emoji.png"
+    },
+    {
+        "name": "Excel",
+        "icon": "https://img.icons8.com/ios/48/ms-excel.png"
+    },
+    {
         "name": "Java",
         "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
     },
