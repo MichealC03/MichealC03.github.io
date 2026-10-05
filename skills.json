@@ -36,16 +36,8 @@
         "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
     },
     {
-        "name": "ODEint",
-        "icon": "https://img.icons8.com/external-flatart-icons-flat-flatarticons/64/external-equation-learning-flatart-icons-flat-flatarticons.png"
-    },
-    {
         "name": "Data Scraping",
         "icon": "assets/images/skills/scrape.png"
-    },
-    {
-        "name": "Bootstrap",
-        "icon": "https://img.icons8.com/color/48/000000/bootstrap.png"
     },
     {
         "name": "C#",
