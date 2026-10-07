@@ -33,17 +33,6 @@
     }
   },
   {
-    "name": "DraftWatch",
-    "desc": "Personal project. An application that tracks the current draft position for fantasy football. Only works in preseason due to website's format. Built using Python, Requests, Pandas, and Streamlit.",
-    "image": "football",
-    "category": "data analytics",
-    "links": {
-      "view": "",
-      "demo": "https://www.loom.com/share/3506544998e04f54b67b45a67ba075bc",
-      "code": "https://github.com/MichealC03/Fantasy-Football"
-    }
-  },
-  {
     "name": "FlightPlan (Golden Bowtie Award Winner)",
     "desc": "Personal Capstone project. An interactive flight scheduler targeted for companies who want to visualize and refine schedule for the day. Built using Python, Mongo, Pandas, OpenSky API, Amadeus API, Flask, and Folium.",
     "image": "airline",
